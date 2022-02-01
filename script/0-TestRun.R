@@ -20,5 +20,4 @@ text <- image_read(pngfile) %>%
 
 # use optimal character recognition 
 text <- ocr(pngfile)
-cat(text)
-
+text <- list(text)
